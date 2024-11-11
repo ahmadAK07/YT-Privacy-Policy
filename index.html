@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./icon.png">
+    <title>YT | Privacy Policy</title>
+    <style>
+        @font-face {
+            font-family: "Special";
+            src: url(./Jost-Medium.ttf);
+        }
+        *{
+            padding: 0;margin: 0;box-sizing: border-box;font-family: "Special";
+        }
+        
+        main, nav{
+            width: 100%;
+            max-width: 1280px;
+            margin: auto;
+            padding: 20px;
+        }
+        nav{
+            padding: 10px 20px;
+        }
+        p{
+            margin-bottom: 30px;
+            font-size: 18px;
+            color: #111;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="./icon.png" width="30px" alt="">
+        </div>
+    </nav>
+
+    <main>
+        <h1>Privacy Policy for YT bookmakrs</h1>
+        <p id="date"></p>
+        
+        <h2>Data Collection</h2>
+        <p>YT bookmarks does <strong>not collect any personal data</strong>. We do not track or store any information about your usage or device.</p>
+        
+        <h2>Mellowtel Integration</h2>
+        <p>This extension uses Mellowtel for optional monetization. Users can choose to share a fraction of their unused internet bandwidth with Mellowtel’s network, but no personal data is collected.</p>
+        
+        <h2>User Control</h2>
+        <p>Internet sharing is optional and fully controlled by the user. No additional permissions are requested beyond core functionality.</p>
+        
+        <h2>Policy Updates</h2>
+        <p>We may update this policy. Please review it periodically for any changes.</p>
+      
+    </main>
+
+    <script>
+        let date = document.getElementById("date");
+        let d = new Date();
+        date.innerHTML = d.toDateString();
+    </script>
+</body>
+</html>
